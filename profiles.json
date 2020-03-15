@@ -1,222 +1,288 @@
 ﻿{
   "$schema": "https://aka.ms/terminal-profiles-schema",
-  "globals": {
-    "alwaysShowTabs": true,
-    "defaultProfile": "{ae5144f1-d09f-4f80-ace2-0a05fad68481}",
-    "initialCols": 120,
-    "initialRows": 30,
-    "keybindings": [
-      {
-        "command": "closeTab",
-        "keys": [
-          "ctrl+w"
-        ]
-      },
-      {
-        "command": "newTab",
-        "keys": [
-          "ctrl+t"
-        ]
-      },
-      {
-        "command": "newTabProfile0",
-        "keys": [
-          "ctrl+shift+1"
-        ]
-      },
-      {
-        "command": "newTabProfile1",
-        "keys": [
-          "ctrl+shift+2"
-        ]
-      },
-      {
-        "command": "newTabProfile2",
-        "keys": [
-          "ctrl+shift+3"
-        ]
-      },
-      {
-        "command": "newTabProfile3",
-        "keys": [
-          "ctrl+shift+4"
-        ]
-      },
-      {
-        "command": "newTabProfile4",
-        "keys": [
-          "ctrl+shift+5"
-        ]
-      },
-      {
-        "command": "newTabProfile5",
-        "keys": [
-          "ctrl+shift+6"
-        ]
-      },
-      {
-        "command": "newTabProfile6",
-        "keys": [
-          "ctrl+shift+7"
-        ]
-      },
-      {
-        "command": "newTabProfile7",
-        "keys": [
-          "ctrl+shift+8"
-        ]
-      },
-      {
-        "command": "newTabProfile8",
-        "keys": [
-          "ctrl+shift+9"
-        ]
-      },
-      {
-        "command": "nextTab",
-        "keys": [
-          "ctrl+tab"
-        ]
-      },
-      {
-        "command": "openSettings",
-        "keys": [
-          "ctrl+,"
-        ]
-      },
-      {
-        "command": "prevTab",
-        "keys": [
-          "ctrl+shift+tab"
-        ]
-      },
-      {
-        "command": "scrollDown",
-        "keys": [
-          "ctrl+shift+down"
-        ]
-      },
-      {
-        "command": "scrollDownPage",
-        "keys": [
-          "ctrl+shift+pgdn"
-        ]
-      },
-      {
-        "command": "scrollUp",
-        "keys": [
-          "ctrl+shift+up"
-        ]
-      },
-      {
-        "command": "scrollUpPage",
-        "keys": [
-          "ctrl+shift+pgup"
-        ]
-      },
-      {
-        "command": "switchToTab0",
-        "keys": [
-          "alt+1"
-        ]
-      },
-      {
-        "command": "switchToTab1",
-        "keys": [
-          "alt+2"
-        ]
-      },
-      {
-        "command": "switchToTab2",
-        "keys": [
-          "alt+3"
-        ]
-      },
-      {
-        "command": "switchToTab3",
-        "keys": [
-          "alt+4"
-        ]
-      },
-      {
-        "command": "switchToTab4",
-        "keys": [
-          "alt+5"
-        ]
-      },
-      {
-        "command": "switchToTab5",
-        "keys": [
-          "alt+6"
-        ]
-      },
-      {
-        "command": "switchToTab6",
-        "keys": [
-          "alt+7"
-        ]
-      },
-      {
-        "command": "switchToTab7",
-        "keys": [
-          "alt+8"
-        ]
-      },
-      {
-        "command": "switchToTab8",
-        "keys": [
-          "alt+9"
-        ]
-      }
-    ],
-    "requestedTheme": "system",
-    "showTabsInTitlebar": true,
-    "showTerminalTitleInTitlebar": true,
-    "wordDelimiters": " ./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}~?\u2502"
-  },
+  "confirmCloseAllTabs": false,
+  "defaultProfile": "{ae5144f1-d09f-4f80-ace2-0a05fad68481}",
+  "wordDelimiters": " ./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}~?\u2502",
   "profiles": {
     "defaults": {
       // Put settings here that you want to apply to all profiles
-      "acrylicOpacity": 0.75,
-      "background": "#012456",
-      "closeOnExit": true,
-      "colorScheme": "Campbell",
+      "closeOnExit": "graceful",
       "cursorColor": "#FFCC00",
       "cursorShape": "bar",
       "fontFace": "Source Code Pro for Powerline",
       "fontSize": 10,
       "historySize": 9001,
       "padding": "10, 10, 1, 1",
-      "snapOnInput": true,
-      "startingDirectory": "C:/TMP",
-      "useAcrylic": true
+      "snapOnInput": true
     },
     "list": [
       {
+        "acrylicOpacity": 0.75,
+        "colorScheme": "Campbell",
         "commandline": "C:/Program Files/PowerShell/7/pwsh.exe",
         "guid": "{ae5144f1-d09f-4f80-ace2-0a05fad68481}",
         "icon": "C:/Program Files/PowerShell/7/assets/Powershell_avatar.ico",
-        "name": "PowerShell 7 Preview"
+        "name": "PowerShell 7 Preview",
+        "startingDirectory": "C:/TMP",
+        "useAcrylic": true
       },
       {
+        "acrylicOpacity": 0.75,
+        "colorScheme": "Campbell",
         "commandline": "powershell.exe",
         "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
         "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
         "name": "PowerShell",
+        "startingDirectory": "C:/TMP",
+        "useAcrylic": true
       },
       {
+        "acrylicOpacity": 0.75,
+        "colorScheme": "Campbell",
         "commandline": "cmd.exe",
         "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
         "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
-        "name": "CMD"
+        "name": "CMD",
+        "startingDirectory": "C:/TMP",
+        "useAcrylic": true
       },
       {
+        "acrylicOpacity": 0.5,
         "colorScheme": "Monokai Remastered",
         "commandline": "wsl.exe -d Legacy",
         "guid": "{6e9fa4d2-a4aa-562d-b1fa-0789dc1f83d7}",
         "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
         "name": "WSL"
+      },
+      {
+        "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+        "hidden": true,
+        "name": "PowerShell",
+        "source": "Windows.Terminal.PowershellCore"
+      },
+      {
+        "guid": "{a3a2e83a-884a-5379-baa8-16f193a13b21}",
+        "hidden": true,
+        "name": "PowerShell 7 Preview",
+        "source": "Windows.Terminal.PowershellCore"
+      },
+      {
+        "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+        "hidden": true,
+        "name": "Azure Cloud Shell",
+        "source": "Windows.Terminal.Azure"
       }
     ]
-  }
+  },
+  // Add custom color schemes to this array
+  "schemes": [
+    {
+      "background": "#012456",
+      "black": "#0C0C0C",
+      "blue": "#0037DA",
+      "brightBlack": "#767676",
+      "brightBlue": "#3B78FF",
+      "brightCyan": "#61D6D6",
+      "brightGreen": "#16C60C",
+      "brightPurple": "#B4009E",
+      "brightRed": "#E74856",
+      "brightWhite": "#F2F2F2",
+      "brightYellow": "#F9F1A5",
+      "cyan": "#3A96DD",
+      "foreground": "#CCCCCC",
+      "green": "#13A10E",
+      "name": "Campbell",
+      "purple": "#881798",
+      "red": "#C50F1F",
+      "white": "#CCCCCC",
+      "yellow": "#C19C00"
+    },
+    {
+      "background": "#0C0C0C",
+      "black": "#1A1A1A",
+      "blue": "#9D65FF",
+      "brightBlack": "#625E4C",
+      "brightBlue": "#9D65FF",
+      "brightCyan": "#58D1EB",
+      "brightGreen": "#98E024",
+      "brightPurple": "#F4005F",
+      "brightRed": "#F4005F",
+      "brightWhite": "#F6F6EF",
+      "brightYellow": "#E0D561",
+      "cyan": "#58D1EB",
+      "foreground": "#D9D9D9",
+      "green": "#98E024",
+      "name": "Monokai Remastered",
+      "purple": "#F4005F",
+      "red": "#F4005F",
+      "white": "#C4C5B5",
+      "yellow": "#FD971F"
+    }
+  ],
+  // Add any keybinding overrides to this array.
+  // To unbind a default keybinding, set the command to "unbound"
+  "keybindings": [
+    {
+      "command": "closeTab",
+      "keys": [
+        "ctrl+w"
+      ]
+    },
+    {
+      "command": "newTab",
+      "keys": [
+        "ctrl+t"
+      ]
+    },
+    {
+      "command": "newTabProfile0",
+      "keys": [
+        "ctrl+shift+1"
+      ]
+    },
+    {
+      "command": "newTabProfile1",
+      "keys": [
+        "ctrl+shift+2"
+      ]
+    },
+    {
+      "command": "newTabProfile2",
+      "keys": [
+        "ctrl+shift+3"
+      ]
+    },
+    {
+      "command": "newTabProfile3",
+      "keys": [
+        "ctrl+shift+4"
+      ]
+    },
+    {
+      "command": "newTabProfile4",
+      "keys": [
+        "ctrl+shift+5"
+      ]
+    },
+    {
+      "command": "newTabProfile5",
+      "keys": [
+        "ctrl+shift+6"
+      ]
+    },
+    {
+      "command": "newTabProfile6",
+      "keys": [
+        "ctrl+shift+7"
+      ]
+    },
+    {
+      "command": "newTabProfile7",
+      "keys": [
+        "ctrl+shift+8"
+      ]
+    },
+    {
+      "command": "newTabProfile8",
+      "keys": [
+        "ctrl+shift+9"
+      ]
+    },
+    {
+      "command": "nextTab",
+      "keys": [
+        "ctrl+tab"
+      ]
+    },
+    {
+      "command": "openSettings",
+      "keys": [
+        "ctrl+,"
+      ]
+    },
+    {
+      "command": "prevTab",
+      "keys": [
+        "ctrl+shift+tab"
+      ]
+    },
+    {
+      "command": "scrollDown",
+      "keys": [
+        "ctrl+shift+down"
+      ]
+    },
+    {
+      "command": "scrollDownPage",
+      "keys": [
+        "ctrl+shift+pgdn"
+      ]
+    },
+    {
+      "command": "scrollUp",
+      "keys": [
+        "ctrl+shift+up"
+      ]
+    },
+    {
+      "command": "scrollUpPage",
+      "keys": [
+        "ctrl+shift+pgup"
+      ]
+    },
+    {
+      "command": "switchToTab0",
+      "keys": [
+        "alt+1"
+      ]
+    },
+    {
+      "command": "switchToTab1",
+      "keys": [
+        "alt+2"
+      ]
+    },
+    {
+      "command": "switchToTab2",
+      "keys": [
+        "alt+3"
+      ]
+    },
+    {
+      "command": "switchToTab3",
+      "keys": [
+        "alt+4"
+      ]
+    },
+    {
+      "command": "switchToTab4",
+      "keys": [
+        "alt+5"
+      ]
+    },
+    {
+      "command": "switchToTab5",
+      "keys": [
+        "alt+6"
+      ]
+    },
+    {
+      "command": "switchToTab6",
+      "keys": [
+        "alt+7"
+      ]
+    },
+    {
+      "command": "switchToTab7",
+      "keys": [
+        "alt+8"
+      ]
+    },
+    {
+      "command": "switchToTab8",
+      "keys": [
+        "alt+9"
+      ]
+    }
+  ]
 }
