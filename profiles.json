@@ -1,7 +1,7 @@
 ﻿{
   "$schema": "https://aka.ms/terminal-profiles-schema",
   "confirmCloseAllTabs": false,
-  "defaultProfile": "{ae5144f1-d09f-4f80-ace2-0a05fad68481}",
+  "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
   "wordDelimiters": " ./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}~?\u2502",
   "profiles": {
     "defaults": {
@@ -287,6 +287,15 @@
       "command": "switchToTab8",
       "keys": [
         "alt+9"
+      ]
+    },
+    {
+      "command": {
+        "action": "splitPane",
+        "split": "auto"
+      },
+      "keys": [
+        "ctrl+shift+t"
       ]
     }
   ]
