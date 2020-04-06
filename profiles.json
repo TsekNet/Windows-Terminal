@@ -17,16 +17,7 @@
     },
     "list": [
       {
-        "acrylicOpacity": 0.75,
-        "colorScheme": "Campbell",
-        "commandline": "C:/Program Files/PowerShell/7/pwsh.exe",
-        "guid": "{ae5144f1-d09f-4f80-ace2-0a05fad68481}",
-        "icon": "C:/Program Files/PowerShell/7/assets/Powershell_avatar.ico",
-        "name": "PowerShell 7 Preview",
-        "startingDirectory": "C:/TMP",
-        "useAcrylic": true
-      },
-      {
+        // PowerShell 5.1
         "acrylicOpacity": 0.75,
         "colorScheme": "Campbell",
         "commandline": "powershell.exe",
@@ -37,23 +28,37 @@
         "useAcrylic": true
       },
       {
+        // PowerShell 7
+        "acrylicOpacity": 0.75,
+        "colorScheme": "Campbell",
+        "commandline": "C:/Program Files/PowerShell/7/pwsh.exe",
+        "guid": "{ae5144f1-d09f-4f80-ace2-0a05fad68481}",
+        "icon": "C:/Program Files/PowerShell/7/assets/Powershell_avatar.ico",
+        "name": "PowerShell 7 ⚡",
+        "startingDirectory": "C:/TMP",
+        "useAcrylic": true
+      },
+      {
+        // Make changes here to the cmd.exe profile
         "acrylicOpacity": 0.75,
         "colorScheme": "Campbell",
         "commandline": "cmd.exe",
         "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
         "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
-        "name": "CMD",
+        "name": "cmd ⌨",
         "startingDirectory": "C:/TMP",
         "useAcrylic": true
       },
       {
+        // WSL 2
         "acrylicOpacity": 0.5,
         "colorScheme": "Monokai Remastered",
-        "commandline": "wsl.exe -d Legacy",
+        "commandline": "Windows.Terminal.Wsl",
         "guid": "{6e9fa4d2-a4aa-562d-b1fa-0789dc1f83d7}",
         "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
-        "name": "WSL"
+        "name": "WSL 🐧"
       },
+      // Hide defaults
       {
         "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
         "hidden": true,
