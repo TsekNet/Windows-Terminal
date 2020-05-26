@@ -9,7 +9,7 @@
       "closeOnExit": "graceful",
       "cursorColor": "#FFCC00",
       "cursorShape": "bar",
-      "fontFace": "Source Code Pro for Powerline",
+      "fontFace": "DejaVu Sans Mono for Powerline",
       "fontSize": 10,
       "historySize": 9001,
       "padding": "10, 10, 1, 1",
@@ -41,7 +41,7 @@
       {
         // Make changes here to the cmd.exe profile
         "acrylicOpacity": 0.75,
-        "colorScheme": "Campbell",
+        "colorScheme": "Dark+",
         "commandline": "cmd.exe",
         "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
         "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
@@ -52,11 +52,11 @@
       {
         // WSL 2
         "acrylicOpacity": 0.5,
-        "colorScheme": "Monokai Remastered",
-        "commandline": "Windows.Terminal.Wsl",
-        "guid": "{6e9fa4d2-a4aa-562d-b1fa-0789dc1f83d7}",
+        "colorScheme": "Dark+",
+        "source": "Windows.Terminal.Wsl",
+        "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
         "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
-        "name": "WSL 🐧"
+        "name": "Debian (WSL) 🐧"
       },
       // Hide defaults
       {
@@ -82,6 +82,7 @@
   // Add custom color schemes to this array
   "schemes": [
     {
+      "name": "Campbell",
       "background": "#012456",
       "black": "#0C0C0C",
       "blue": "#0037DA",
@@ -96,32 +97,32 @@
       "cyan": "#3A96DD",
       "foreground": "#CCCCCC",
       "green": "#13A10E",
-      "name": "Campbell",
       "purple": "#881798",
       "red": "#C50F1F",
       "white": "#CCCCCC",
       "yellow": "#C19C00"
     },
     {
-      "background": "#0C0C0C",
-      "black": "#1A1A1A",
-      "blue": "#9D65FF",
-      "brightBlack": "#625E4C",
-      "brightBlue": "#9D65FF",
-      "brightCyan": "#58D1EB",
-      "brightGreen": "#98E024",
-      "brightPurple": "#F4005F",
-      "brightRed": "#F4005F",
-      "brightWhite": "#F6F6EF",
-      "brightYellow": "#E0D561",
-      "cyan": "#58D1EB",
-      "foreground": "#D9D9D9",
-      "green": "#98E024",
-      "name": "Monokai Remastered",
-      "purple": "#F4005F",
-      "red": "#F4005F",
-      "white": "#C4C5B5",
-      "yellow": "#FD971F"
+      "name": "Dark+",
+      "foreground": "#cccccc",
+      "background": "#1e1e1e",
+      "cursorColor": "#cccccc",
+      "black": "#000000",
+      "red": "#c62f37",
+      "green": "#37be78",
+      "yellow": "#e2e822",
+      "blue": "#396ec7",
+      "purple": "#b835bc",
+      "cyan": "#3ba7cc",
+      "white": "#e5e5e5",
+      "brightBlack": "#666666",
+      "brightRed": "#e94a51",
+      "brightGreen": "#45d38a",
+      "brightYellow": "#f2f84a",
+      "brightBlue": "#4e8ae9",
+      "brightPurple": "#d26ad6",
+      "brightCyan": "#49b7da",
+      "brightWhite": "#e5e5e5"
     }
   ],
   // Add any keybinding overrides to this array.
