@@ -9,7 +9,7 @@ My personal, heavily customized [Windows Terminal profile](https://github.com/mi
 Execute the following command in a PowerShell prompt:
 
 ```powershell
-iwr https://git.io/tsekterminal -Out "$env:LOCALAPPDATA\Microsoft\Windows Terminal\settings.json"
+iwr 'https://github.com/TsekNet/Windows-Terminal/raw/master/settings.json' -Out "$env:LOCALAPPDATA\Microsoft\Windows Terminal\settings.json"
 ```
 
 ## Requirements
