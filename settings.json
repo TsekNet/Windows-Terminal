@@ -1,8 +1,15 @@
-﻿{
+﻿// To view the default settings, hold "alt" while clicking on the "Settings"
+// button.
+// For documentation on these settings, see: https://aka.ms/terminal-documentation
+{
   "$schema": "https://aka.ms/terminal-profiles-schema",
   "confirmCloseAllTabs": false,
   "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
   "wordDelimiters": " ./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}~?\u2502",
+  // A profile specifies a command to execute paired with information about how it should look and feel.
+  // Each one of them will appear in the 'New Tab' dropdown,
+  // and can be invoked from the commandline with `wt.exe -p xxx
+  // To learn more about profiles, visit https://aka.ms/terminal-profile-settings
   "profiles": {
     "defaults": {
       // Put settings here that you want to apply to all profiles
@@ -34,7 +41,7 @@
         "commandline": "C:/Program Files/PowerShell/7/pwsh.exe",
         "guid": "{ae5144f1-d09f-4f80-ace2-0a05fad68481}",
         "icon": "C:/Program Files/PowerShell/7/assets/Powershell_avatar.ico",
-        "name": "PowerShell 7 ⚡",
+        "name": "PowerShell 7",
         "startingDirectory": "C:/TMP",
         "useAcrylic": true
       },
@@ -45,7 +52,7 @@
         "commandline": "cmd.exe",
         "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
         "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
-        "name": "cmd ⌨",
+        "name": "cmd",
         "startingDirectory": "C:/TMP",
         "useAcrylic": true
       },
@@ -56,7 +63,7 @@
         "source": "Windows.Terminal.Wsl",
         "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
         "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
-        "name": "Debian (WSL) 🐧"
+        "name": "Debian (WSL)"
       },
       // Hide defaults
       {
@@ -79,7 +86,8 @@
       }
     ]
   },
-  // Add custom color schemes to this array
+  // Add custom color schemes to this array.
+  // To learn more about color schemes, visit https://aka.ms/terminal-color-schemes
   "schemes": [
     {
       "name": "Campbell",

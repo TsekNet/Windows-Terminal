@@ -9,7 +9,7 @@ My personal, heavily customized [Windows Terminal profile](https://github.com/mi
 Execute the following command in a PowerShell prompt:
 
 ```powershell
-Invoke-WebRequest -Uri https://git.io/tsekterminal -OutFile "$env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\profiles.json"
+iwr https://git.io/tsekterminal -Out "$env:LOCALAPPDATA\Microsoft\Windows Terminal\settings.json"
 ```
 
 ## Requirements
