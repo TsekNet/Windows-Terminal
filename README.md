@@ -6,38 +6,23 @@ My personal, heavily customized [Windows Terminal profile](https://github.com/mi
 
 ## Installation
 
-Execute the following command in a PowerShell prompt:
-
-```powershell
-iwr 'https://github.com/TsekNet/Windows-Terminal/raw/master/settings.json' -Out "$env:LOCALAPPDATA\Microsoft\Windows Terminal\settings.json"
-```
-
-## Requirements
-
-1. Windows 10 1903+
-1. Windows Terminal (from Windows store or choco)
-1. PowerShell 7 Preview
-1. PowerShell 5.1
-1. WSL
+1. Install the Cascadia Code PL font ([download Link](https://github.com/microsoft/cascadia-code/releases) / `choco install cascadiacodepl`)
+2. Execute the following command in PowerShell:
+    ```powershell
+    iwr 'https://github.com/TsekNet/Windows-Terminal/raw/master/settings.json' -Out "$env:LOCALAPPDATA\Microsoft\Windows Terminal\settings.json"
+    ```
 
 ## What's included
 
 The following Windows Terminal profiles come pre-configured:
 
-1. PowerShell 7 Preview
-2. PowerShell 5
-3. CMD
-4. WSL
+1. PowerShell 5
+1. PowerShell Core or newer
+1. CMD
+1. WSL
 
 ## Contributing
 
-Please open a pull request with any issues you run into.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](../LICENSE) file for details.
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* etc
+Please make sure to update tests as appropriate.
